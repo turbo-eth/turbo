@@ -1,0 +1,51 @@
+{
+  "name": "turbo-eth",
+  "version": "0.0.0-beta.0",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "@tanstack/query-core": "^4.3.8",
+        "@tanstack/react-query": "^4.3.9",
+        "@rainbow-me/rainbowkit": "0.8.1",
+        "react": ">=17",
+        "react-dom": ">=17",
+        "wagmi": "0.9.x"
+      }
+    }
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "build:prd": "turbo run build:prd",
+    "compile": "turbo run compile",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "chain": "turbo run chain",
+    "lab": "turbo run lab",
+    "lab:demo": "turbo run lab:demo",
+    "lab:fork": "turbo run lab:fork",
+    "clean": "turbo run clean",
+    "cleanself": "rm -rf ./node_modules && rm -rf ./dist && rm -rf ./build",
+    "refresh": "turbo run clean ; npm run cleanself"
+  },
+  "dependencies": {
+    "react": ">=17",
+    "react-dom": ">=17"
+  },
+  "devDependencies": {
+    "@babel/core": "7.18.5",
+    "@tanstack/query-core": "^4.3.8",
+    "@tanstack/react-query": "^4.3.9",
+    "prettier": "^2.6.2",
+    "turbo": "latest"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "pnpm@7.1.8"
+}
