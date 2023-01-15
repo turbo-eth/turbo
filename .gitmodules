@@ -7,3 +7,6 @@
 [submodule "packages/@turbo-eth-erc721-wagmi"]
 	path = packages/@turbo-eth-erc721-wagmi
 	url = https://github.com/turbo-eth/erc721-wagmi.git
+[submodule "packages/@turbo-eth-next-web3-app"]
+	path = packages/@turbo-eth-next-web3-app
+	url = https://github.com/turbo-eth/template-web3-app.git
