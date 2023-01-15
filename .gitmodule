@@ -1,0 +1,9 @@
+[submodule "packages/@turbo-eth-core-wagmi"]
+	path = packages/@turbo-eth-core-wagmi
+	url = git@github.com:turbo-eth/core-wagmi.git
+[submodule "packages/@turbo-eth-erc20-wagmi"]
+	path = packages/@turbo-eth-erc20-wagmi
+	url = git@github.com:turbo-eth/erc20-wagmi.git
+[submodule "packages/@turbo-eth-erc721-wagmi"]
+	path = packages/@turbo-eth-erc721-wagmi
+	url = git@github.com:turbo-eth/erc721-wagmi.git
