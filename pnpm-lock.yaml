@@ -35,6 +35,7 @@ importers:
       '@types/react': ^18.0.26
       '@types/react-dom': ^18.0.10
       classnames: 2.3.1
+      clsx: ^1.2.1
       dts-cli: ^1.6.3
       ethers: 5.7.2
       husky: ^8.0.2
@@ -52,6 +53,7 @@ importers:
       '@tanstack/query-core': 4.22.0
       '@tanstack/react-query': 4.22.0_mm6ssz5t7nsja4qwwvdafuklbu
       classnames: 2.3.1
+      clsx: 1.2.1
       ethers: 5.7.2
       prop-types: 15.8.1
       react-native: 0.71.0_fz72vpftmnaczycpteam7fadla
@@ -214,7 +216,7 @@ importers:
       '@tanstack/query-core': ^4.3.8
       '@tanstack/react-query': ^4.3.9
       '@tsconfig/next': ^1.0.4
-      '@turbo-eth/core-wagmi': 0.0.0-beta.3
+      '@turbo-eth/core-wagmi': 0.0.0-beta.4
       '@turbo-eth/erc20-wagmi': 0.0.0-beta.7
       '@turbo-eth/erc721-wagmi': 0.0.0-beta.4
       '@types/luxon': ^3.2.0
@@ -226,6 +228,7 @@ importers:
       autoprefixer: ^10.4.13
       axios: ^1.2.2
       classnames: ^2.3.2
+      clsx: ^1.2.1
       eslint: 8.30.0
       eslint-config-next: 13.1.1
       eslint-config-prettier: ^8.5.0
@@ -248,6 +251,7 @@ importers:
       iron-session: ^6.3.1
       jotai: ^1.13.0
       jsonwebtoken: ^9.0.0
+      ky: ^0.33.2
       ky-universal: ^0.11.0
       lint-staged: ^13.1.0
       lucide-react: 0.105.0-alpha.4
@@ -272,6 +276,7 @@ importers:
       react-wrap-balancer: ^0.3.0
       siwe: 2.0.5
       swr: ^2.0.0
+      tailwind-merge: ^1.8.1
       tailwindcss: ^3.2.4
       typescript: 4.9.4
       usehooks-ts: ^2.9.1
@@ -295,11 +300,13 @@ importers:
       '@wagmi/chains': 0.1.9
       axios: 1.2.2
       classnames: 2.3.2
+      clsx: 1.2.1
       ethers: 5.7.2
       focus-trap-react: 10.0.2_v2m5e27vhdewzwhryxwfaorcca
       framer-motion: 8.4.3_biqbaboplfbrettd7655fr4n2y
       iron-session: 6.3.1_next@13.1.1
       jotai: 1.13.0_5wvcx74lvxq2lfpc5x4ihgp2jm
+      ky: 0.33.2
       ky-universal: 0.11.0_ky@0.33.2
       lucide-react: 0.105.0-alpha.4_react@18.2.0
       luxon: 3.2.1
@@ -319,6 +326,7 @@ importers:
       react-wrap-balancer: 0.3.0_react@18.2.0
       siwe: 2.0.5_ethers@5.7.2+keccak@3.0.3
       swr: 2.0.0_react@18.2.0
+      tailwind-merge: 1.8.1
       tailwindcss: 3.2.4_aesdjsunmf4wiehhujt67my7tu
       usehooks-ts: 2.9.1_biqbaboplfbrettd7655fr4n2y
       wagmi: 0.9.6_q563lby4bjen4dhdod37xuyepq
@@ -16505,6 +16513,10 @@ packages:
 
   /tabbable/6.0.1:
     resolution: {integrity: sha512-SYJSIgeyXW7EuX1ytdneO5e8jip42oHWg9xl/o3oTYhmXusZVgiA+VlPvjIN+kHii9v90AmzTZEBcsEvuAY+TA==}
+    dev: false
+
+  /tailwind-merge/1.8.1:
+    resolution: {integrity: sha512-+fflfPxvHFr81hTJpQ3MIwtqgvefHZFUHFiIHpVIRXvG/nX9+gu2P7JNlFu2bfDMJ+uHhi/pUgzaYacMoXv+Ww==}
     dev: false
 
   /tailwindcss/3.2.4_aesdjsunmf4wiehhujt67my7tu:
